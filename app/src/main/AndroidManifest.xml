@@ -19,6 +19,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ConverterProject">
 
+        <!-- Add license key in meta-data tag here. This should be inside the application tag. -->
+        <meta-data android:name="pdftron_license_key" android:value="${pdftronLicenseKey}"/>
+
+
         <activity android:name=".MainActivity"
             android:windowSoftInputMode="adjustPan"
             android:theme="@style/PDFTronAppTheme">
